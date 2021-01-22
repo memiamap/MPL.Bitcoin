@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Martin Parkin</Authors>
+    <Description>A library that provides functionality to parse elements from the Bitcoin blockchain including blocks, transactions, and block files from Bitcoin-core.</Description>
+    <Copyright>©2019-2021 Martin Parkin</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MPL.Bitcoin.Library\MPL.Bitcoin.Library.csproj" />
+  </ItemGroup>
+
+</Project>
